@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+#game-bg {
+    position: relative;
+    width: 800px;
+    height: 200px;
+    background-image: url('C:/Users/Grimm/Desktop/BASESUMMER/images/background.png'); /* Image de fond */
+    overflow: hidden;
+}
+
+#basecaracter {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background-image: url('C:/Users/Grimm/Desktop/BASESUMMER/images/basecharacter.png'); /* Image du perso */
+    background-size: cover;
+}
+
+#obstacle {
+    position: absolute;
+    bottom: 0;
+    right: -50px;
+    width: 50px;
+    height: 50px;
+    background-image: url('C:/Users/Grimm/Desktop/BASESUMMER/images/obstacle1.png'); /* Image de l'obstacle */
+    background-size: cover;
+}
